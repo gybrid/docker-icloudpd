@@ -699,7 +699,7 @@ then
    echo "Current version (v${current_version}) is newer than latest build (v${latest_version}). Good luck!"
 elif [ "${current_version}" -eq "${latest_version}" ]
 then
-   echo "Current version is up to date"
+   echo "Current version (v${current_version}) is up to date"
 else
    echo "Check for updates failed. Cannot continue. Halting"
    sleep infinity
